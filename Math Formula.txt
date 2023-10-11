@@ -1,0 +1,5 @@
+1. Ceiling Calculation : Ceil of x / y = x + y - 1 / y
+
+2. Sum of N numbers : N * (N + 1) / 2
+
+3. N numbers last K digit Sum : ((2 * n - k + 1) * k) / 2

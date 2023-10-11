@@ -1,1 +1,0 @@
-1. Ceil of x / y = x + y - 1 / y
