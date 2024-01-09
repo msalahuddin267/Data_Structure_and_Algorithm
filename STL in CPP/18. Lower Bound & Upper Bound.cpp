@@ -2,9 +2,9 @@
 using namespace std;
 
 /*
---> Lower Bound hocche akta array te amra jei value ta khujbo oitar leftmost itterator ta dibe r jodi oi value
-    ta na thake tahole thik tar theke boro value ta dibe r jodi oitar theke boro value o na tkake tahole
-    end() pointer return korbe
+--> Lower Bound hocche akta (sorted hote hobe na hole time complexity O(n) hoya jabe) array te amra jei value ta
+    khujbo oitar leftmost itterator ta dibe r jodi oi value ta na thake tahole thik tar theke boro value ta dibe
+    r jodi oitar theke boro value o na tkake tahole end() pointer return korbe
 --> Upper bound hocche amra jei value ta dibo thik tar theke boro value ta dibe r jodi na thake tahole end()
     pointer return korbe
 --> akta array te akta element koibar ache seta ber korte hole = upper bound - lower bound
@@ -30,6 +30,8 @@ int main()
 
     for(int i = 0; i < n; i++)
         cin >> v[i];
+
+    sort(v.begin(), v.end());
 
     auto lower = lower_bound(v.begin(), v.end(), x);
 

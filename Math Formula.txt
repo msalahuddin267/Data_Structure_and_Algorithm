@@ -1,4 +1,4 @@
-1. Ceiling Calculation : Ceil of x / y = x + y - 1 / y
+1. Ceiling Calculation : Ceil of x / y = (x + y - 1) / y
 
 2. Sum of N numbers : N * (N + 1) / 2
 

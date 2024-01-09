@@ -132,7 +132,7 @@ int main()
         v.erase(it);
 
     // Delete all even or odd numbers - O(n)
-    for (auto it = v.begin(); it != v.end();)
+    for (auto it = v.begin(); it != v.end(); )
     {
         if (*it % 2 == 0)
             it = v.erase(it);
